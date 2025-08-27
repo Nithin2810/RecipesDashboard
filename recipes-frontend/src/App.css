@@ -1,0 +1,55 @@
+.app-container {
+    padding: 20px;
+    font-family: Arial;
+}
+
+.filters input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.drawer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.close-btn {
+    float: right;
+    cursor: pointer;
+}
+
+.nutrients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrients-table th,
+.nutrients-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
